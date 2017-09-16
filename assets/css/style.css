@@ -1,0 +1,43 @@
+body {
+	background: #27aae1;
+	font-family: 'Sigmar One', cursive;
+}
+#letter-guessed li {
+	display: inline-block;
+}	
+
+footer {
+	height: 150px;
+	background: #39b54a;
+}
+
+h1 {
+	color: #fff;
+	text-shadow: 2px 2px #1b75bc;
+	text-align: center;
+}
+
+h1#you-win {
+	color: orange;
+	font-size: 42px;
+}
+
+#game-word, #guesses-left, #letter-guessed {
+	text-align: center;
+	color: #fff;
+	font-size: 42px;
+	padding-top:30px;
+}
+
+#letter-guessed li {
+	color: #fff;
+	font-size: 42px;
+}
+
+.mt {
+	margin-top: 60px;
+}
+
+.mb {
+	margin-bottom: 60px;
+}
